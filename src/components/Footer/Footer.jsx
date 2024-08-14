@@ -7,20 +7,54 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-        <Row className="footer-row">
-          <Col md={3} sm={5} className="box">
+        <Row className="footer-row row1">
+          <Col md={3} sm={5} className="box row1-box1">
             <div className="logo">
-              <img src="/logo-furniture.png" alt="Logo" className="imageLogo" />
+              <img
+                src="/logo-furniture.png"
+                alt="Logo"
+                className="imageLogoFooter"
+              />
               <h1>C.GEDDES</h1>
             </div>
             <p>
-              At C.GEDDES, we are dedicated to transforming your living spaces
-              with our exquisite collection of furniture. Our commitment to
-              quality and craftsmanship ensures that each piece is not only
-              stylish but also built to last. Discover the perfect blend of
-              comfort and elegance with us.
+              C.Geddes Design & Finishing is a family owned and operated general
+              contracting firm with more than 15 years of experience in building
+              construction. The owners of the business are very active in daily
+              operations, with principals being involved at every level, from
+              management to field supervision to actual field construction. We
+              offer reliability and accountability.
             </p>
           </Col>
+
+          <Col md={3} sm={5} className="row1-box1">
+            <p>
+              CGDF is a full service general contractor, providing both
+              pre-construction and construction management services. We maintain
+              a permanent and highly skilled workforce and traditionally perform
+              a high percentage of work with our own crews, including selective
+              demolition, site, concrete, masonry and carpentry. Our in-house
+              construction capacity allows us to be responsive to the needs of
+              our clients on projects of any size and complexity. We pride
+              ourselves on our reputation for quality craftsmanship.
+            </p>
+          </Col>
+
+          <Col md={3} sm={5} className="row1-box1">
+            <p>
+              CGDF brings a pro-active, team oriented approach to our projects,
+              which is clearly evident in the large number of negotiated
+              contracts we have completed. Not only do we look to identify
+              potential conflicts and problems before they arise, we also work
+              on providing timely, practical and cost effective solutions. We
+              are confident that the many clients we have performed work for,
+              many on a repeat basis, would attest to our commitment and
+              professionalism, as well as to the high level of
+              quality of our work
+            </p>
+          </Col>
+        </Row>
+        <Row className="footer-row">
           <Col md={3} sm={5} className="box">
             <ul class="footer-list">
               <li>

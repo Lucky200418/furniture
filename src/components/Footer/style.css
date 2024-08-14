@@ -4,8 +4,20 @@ footer {
   color: #fff;
 }
 
+.row1 {
+  display: flex;
+}
+
+.row1-box1 {
+  width: 100%;
+}
+
+.row1:nth-child(1) {
+  justify-self: start;
+}
 footer .box {
   padding: 0 20px;
+  margin: 2rem 0;
 }
 
 footer h1 {
@@ -108,5 +120,10 @@ a.footer-link:is(:hover, :focus) {
 
 .table-data {
   color: var(--onyx);
+}
+
+.imageLogoFooter {
+  width: 9rem;
+  height: 9rem;
 }
 
