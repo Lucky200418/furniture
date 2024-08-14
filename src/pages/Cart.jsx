@@ -16,7 +16,7 @@ const Cart = () => {
     const encodedMessage = encodeURIComponent(message);
 
     // Client's WhatsApp number (replace with actual number)
-    const whatsappNumber = "2349122067994"; // Use the full international format without '+' or '00'
+    const whatsappNumber = "14039660991"; // Use the full international format without '+' or '00'
 
     // WhatsApp URL scheme to open chat with pre-filled message
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
